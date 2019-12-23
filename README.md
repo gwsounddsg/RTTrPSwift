@@ -1,10 +1,6 @@
 # RTTrPSwift
 
-<<<<<<< HEAD
 ![CI Status](https://app.bitrise.io/app/5045a8cdb9cbe2a8/status.svg?token=I2GwdJkeWuqDOeDmK7yNsQ)
-=======
-[![CI Status](https://app.bitrise.io/app/5045a8cdb9cbe2a8/status.svg?token=I2GwdJkeWuqDOeDmK7yNsQ)
->>>>>>> 0061b2f82cd42def944218d272a70c83784ea953
 [![Version](https://img.shields.io/cocoapods/v/RTTrPSwift.svg?style=flat)](https://cocoapods.org/pods/RTTrPSwift)
 [![License](https://img.shields.io/cocoapods/l/RTTrPSwift.svg?style=flat)](https://cocoapods.org/pods/RTTrPSwift)
 [![Platform](https://img.shields.io/cocoapods/p/RTTrPSwift.svg?style=flat)](https://cocoapods.org/pods/RTTrPSwift)
