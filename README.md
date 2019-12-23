@@ -1,6 +1,6 @@
 # RTTrPSwift
 
-[![CI Status](https://img.shields.io/travis/gwsounddsg@gmail.com/RTTrPSwift.svg?style=flat)](https://travis-ci.org/gwsounddsg@gmail.com/RTTrPSwift)
+[![CI Status](https://app.bitrise.io/app/5045a8cdb9cbe2a8/status.svg?token=I2GwdJkeWuqDOeDmK7yNsQ)
 [![Version](https://img.shields.io/cocoapods/v/RTTrPSwift.svg?style=flat)](https://cocoapods.org/pods/RTTrPSwift)
 [![License](https://img.shields.io/cocoapods/l/RTTrPSwift.svg?style=flat)](https://cocoapods.org/pods/RTTrPSwift)
 [![Platform](https://img.shields.io/cocoapods/p/RTTrPSwift.svg?style=flat)](https://cocoapods.org/pods/RTTrPSwift)
