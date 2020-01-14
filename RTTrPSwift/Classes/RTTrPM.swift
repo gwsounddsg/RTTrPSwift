@@ -19,7 +19,7 @@ public struct RTTrPM {
         let module = RTTCode(rawValue: array[0]) ?? .unknown
         
         switch module {
-            case .trackedPointPosition, .trackableWithTimestamp:
+            case .trackable, .trackableWithTimestamp:
                 trackable = try Trackable(&array)
             default:
                 throw RTTError.badModuleType(module)

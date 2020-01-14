@@ -21,8 +21,8 @@ class RTTrPM_Tests: XCTestCase {
 
 extension RTTrPM_Tests {
     
-    func testRTTrPM_trackedPointPosition() {
-        var data: [UInt8] = [UInt8(RTTCode.trackedPointPosition.rawValue)]
+    func testRTTrPM_trackable() {
+        var data: [UInt8] = [UInt8(RTTCode.trackable.rawValue)]
         assert(try RTTrPM(&data), throws: RTTError.byteCountTooSmallToInit(.trackable))
     }
     
