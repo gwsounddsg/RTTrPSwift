@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 RTTrPSwift is a library for Swift of the RTTrP protocol. Information about the protocol can be found here: https://rttrp.github.io/RTTrP-Wiki/
                        DESC
 
-  s.homepage         = 'https://github.com/gwsounddsg/RTTrP-Swift'
+  s.homepage         = 'https://github.com/gwsounddsg/RTTrPSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GW Rodriguez' => 'gwsounddsg@gmail.com' }
