@@ -20,6 +20,7 @@
 		57E3BDF523B02BF1009AF7E2 /* TrackedPointAccVelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E3BDDB23B02BEB009AF7E2 /* TrackedPointAccVelTests.swift */; };
 		57E3BDF623B02BF1009AF7E2 /* TrackedPointPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E3BDDC23B02BEB009AF7E2 /* TrackedPointPositionTests.swift */; };
 		986985FBD576CA5B21CDDE33 /* Pods_RTTrPSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A297CB3C43177989B01575B6 /* Pods_RTTrPSwift_Example.framework */; };
+		9AC1E5A723CE515A00757262 /* FullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1E5A623CE515A00757262 /* FullTests.swift */; };
 		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		57E3BDE223B02BEC009AF7E2 /* TrackableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackableTests.swift; sourceTree = "<group>"; };
 		666C5D492EC16C1EE188955C /* Pods-RTTrPSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTTrPSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-RTTrPSwift_Example/Pods-RTTrPSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8F1D4B8BBAEC01BB8D0B4F5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9AC1E5A623CE515A00757262 /* FullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTests.swift; sourceTree = "<group>"; };
 		A297CB3C43177989B01575B6 /* Pods_RTTrPSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTTrPSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98A5011E6A95BF4A06E26E4 /* Pods-RTTrPSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTTrPSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-RTTrPSwift_Example/Pods-RTTrPSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E4BC42856B0CE84FBA2825A0 /* Pods_RTTrPSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTTrPSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 				57E3BDD623B02B9A009AF7E2 /* CentroidAccVelTests.swift */,
 				57E3BDDA23B02BEB009AF7E2 /* CentroidPositionTests.swift */,
 				57E3BDD923B02BEB009AF7E2 /* EulerTests.swift */,
+				9AC1E5A623CE515A00757262 /* FullTests.swift */,
 				57E3BDDF23B02BEC009AF7E2 /* QuaternionTests.swift */,
 				57E3BDDD23B02BEC009AF7E2 /* RTTrP_Tests.swift */,
 				57E3BDE123B02BEC009AF7E2 /* RTTrPM_Tests.swift */,
@@ -354,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC1E5A723CE515A00757262 /* FullTests.swift in Sources */,
 				57E3BDF423B02BF1009AF7E2 /* TrackableTests.swift in Sources */,
 				57E3BDEE23B02BF0009AF7E2 /* EulerTests.swift in Sources */,
 				57E3BDF223B02BF1009AF7E2 /* TestConstants.swift in Sources */,

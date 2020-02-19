@@ -48,7 +48,7 @@ public struct Trackable: Packet {
             array.removeFirst()
         }
         else { // name is longer than 1 character
-            let nameRange = 0..<Int(nameLength - 1)
+            let nameRange = 0..<Int(nameLength)
             guard let str = String(bytes: array[nameRange], encoding: .utf8) else {
                 throw RTTError.cannotCreateStringForName
             }

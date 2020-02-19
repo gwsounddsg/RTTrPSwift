@@ -44,6 +44,17 @@ extension RTTrP_Tests {
     }
     
     
+    func testRTTrP_blackTraxData() {
+        do {
+            let data = fromBlackTrax
+            _ = try RTTrP(data: data)
+        }
+        catch {
+            XCTAssert(false, "\(error)")
+        }
+    }
+    
+    
     func testRTTrP_intSig() {
         XCTAssertEqual(rttrp?.intSig, .bigEndian)
     }
