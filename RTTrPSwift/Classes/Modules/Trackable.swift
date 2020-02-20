@@ -87,19 +87,26 @@ extension Trackable {
         let module = RTTCode(rawValue: array[0]) ?? .unknown
         
         switch module {
-            case .trackable, .trackableWithTimestamp:
+        case .trackable, .trackableWithTimestamp:
                 return
-            case .centroidAccVel:
-                array.removeFirst()
-                submodules[.centroidAccVel] = [try CentroidAccVel(&array)]
-            case .trackedPointAccVel:
-                array.removeFirst()
-                let newMod = try TrackedPointAccVel(&array)
-                if submodules[.trackedPointAccVel] == nil {submodules[.trackedPointAccVel] = [newMod]}
-                else {submodules[.trackedPointAccVel]?.append(newMod)}
-            default:
-                logging("Error: UInt8 value: \(array[0])", shiftRight: 2)
-                throw RTTError.badUInt8Val
+        
+        case .centroidPosition:
+            array.removeFirst()
+            submodules[.centroidPosition] = [try CentroidPosition(&array)]
+        
+        case .centroidAccVel:
+            array.removeFirst()
+            submodules[.centroidAccVel] = [try CentroidAccVel(&array)]
+        
+        case .trackedPointAccVel:
+            array.removeFirst()
+            let newMod = try TrackedPointAccVel(&array)
+            if submodules[.trackedPointAccVel] == nil {submodules[.trackedPointAccVel] = [newMod]}
+            else {submodules[.trackedPointAccVel]?.append(newMod)}
+        
+        default:
+            logging("Error: Trackable module type UInt8 value: \(array[0])", shiftRight: 2)
+            throw RTTError.badUInt8Val
         }
         
         try buildSubModules(&array)
