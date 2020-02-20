@@ -40,12 +40,12 @@ extension Position {
         let x = try Double([array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7]])
         array.removeSubrange(0...7)
         
-        // z - 8 bytes
-        let z = try Double([array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7]])
-        array.removeSubrange(0...7)
-        
         // y - 8 bytes
         let y = try Double([array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7]])
+        array.removeSubrange(0...7)
+    
+        // z - 8 bytes
+        let z = try Double([array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7]])
         array.removeSubrange(0...7)
         
         position = Coordinates<Double>(x: x, y: y, z: z)
@@ -62,16 +62,16 @@ extension Position {
         let latency: UInt16 = try integerWithBytes([array[0], array[1]])
         array.removeSubrange(0...1)
         
-        // X - 8 bytes
+        // x - 8 bytes
         let x = try Double([array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7]])
-        array.removeSubrange(0...7)
-        
-        // z - 8 bytes
-        let z = try Double([array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7]])
         array.removeSubrange(0...7)
         
         // y - 8 bytes
         let y = try Double([array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7]])
+        array.removeSubrange(0...7)
+    
+        // z - 8 bytes
+        let z = try Double([array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7]])
         array.removeSubrange(0...7)
         
         position = Coordinates<Double>(x: x, y: y, z: z)
@@ -100,12 +100,12 @@ extension PositionAccelerationVelocity {
         var x2 = try Float([array[0], array[1], array[2], array[3]])
         array.removeSubrange(0...3)
         
-        // AccZ - 4 bytes
-        var z2 = try Float([array[0], array[1], array[2], array[3]])
-        array.removeSubrange(0...3)
-        
         // AccY - 4 bytes
         var y2 = try Float([array[0], array[1], array[2], array[3]])
+        array.removeSubrange(0...3)
+    
+        // AccZ - 4 bytes
+        var z2 = try Float([array[0], array[1], array[2], array[3]])
         array.removeSubrange(0...3)
         
         acceleration = Coordinates<Float>(x: x2, y: y2, z: z2)
@@ -114,12 +114,12 @@ extension PositionAccelerationVelocity {
         x2 = try Float([array[0], array[1], array[2], array[3]])
         array.removeSubrange(0...3)
         
-        // VelZ - 4 bytes
-        z2 = try Float([array[0], array[1], array[2], array[3]])
-        array.removeSubrange(0...3)
-        
         // VelY - 4 bytes
         y2 = try Float([array[0], array[1], array[2], array[3]])
+        array.removeSubrange(0...3)
+    
+        // VelZ - 4 bytes
+        z2 = try Float([array[0], array[1], array[2], array[3]])
         array.removeSubrange(0...3)
         
         velocity = Coordinates<Float>(x: x2, y: y2, z: z2)
