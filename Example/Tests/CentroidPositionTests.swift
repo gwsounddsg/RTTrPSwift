@@ -68,11 +68,12 @@ extension CentroidPositionTests {
     
     func testCentroidPosition_y() {
         if centroid == nil {XCTAssert(false); return}
-        XCTAssertEqual(centroid!.position.y, 2.0647, accuracy: 0.0001)
+        XCTAssertEqual(centroid!.position.y, 0)
     }
     
     
     func testCentroidPosition_z() {
-        XCTAssertEqual(centroid?.position.z, 0)
+        if centroid == nil {XCTAssert(false); return}
+        XCTAssertEqual(centroid!.position.z, 2.0647, accuracy: 0.0001)
     }
 }

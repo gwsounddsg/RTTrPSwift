@@ -59,12 +59,12 @@ extension CentroidAccVelTests {
     
     
     func testCentroidAccVel_y() {
-        XCTAssertEqual(module.position.y, 2.064, accuracy: 0.001)
+        XCTAssertEqual(module.position.y, 0.0)
     }
     
     
     func testCentroidAccVel_z() {
-        XCTAssertEqual(module.position.z, 0.0)
+        XCTAssertEqual(module.position.z, 2.064, accuracy: 0.001)
     }
     
     
@@ -74,12 +74,12 @@ extension CentroidAccVelTests {
     
     
     func testCentroidAccVel_accy() {
-        XCTAssertEqual(module.acceleration.y, -53.164, accuracy: 0.001)
+        XCTAssertEqual(module.acceleration.y, 0.0)
     }
     
     
     func testCentroidAccVel_accz() {
-        XCTAssertEqual(module.acceleration.z, 0.0)
+        XCTAssertEqual(module.acceleration.z, -53.164, accuracy: 0.001)
     }
     
     
@@ -89,11 +89,11 @@ extension CentroidAccVelTests {
     
     
     func testCentroidAccVel_vely() {
-        XCTAssertEqual(module.velocity.y, -35.083, accuracy: 0.001)
+        XCTAssertEqual(module.velocity.y, 0.0)
     }
     
     
     func testCentroidAccVel_velz() {
-        XCTAssertEqual(module.velocity.z, 0.0)
+        XCTAssertEqual(module.velocity.z, -35.083, accuracy: 0.001)
     }
 }

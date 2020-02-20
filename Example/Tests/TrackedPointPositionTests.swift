@@ -68,11 +68,12 @@ extension TrackedPointPositionTests {
     
     func testTrackedPointPosition_y() {
         if trackedPoint == nil {XCTAssert(false); return}
-        XCTAssertEqual(trackedPoint!.position.y, 2.0647, accuracy: 0.0001)
+        XCTAssertEqual(trackedPoint!.position.y, 0)
     }
     
     
     func testTrackedPointPosition_z() {
-        XCTAssertEqual(trackedPoint?.position.z, 0)
+        if trackedPoint == nil {XCTAssert(false); return}
+        XCTAssertEqual(trackedPoint!.position.z, 2.0647, accuracy: 0.0001)
     }
 }

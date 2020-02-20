@@ -68,12 +68,13 @@ extension QuaternionTests {
     
     func testQuaternion_y() {
         if quaternion == nil {XCTAssert(false); return}
-        XCTAssertEqual(quaternion!.position.y, 2.0647, accuracy: 0.0001)
+        XCTAssertEqual(quaternion?.position.y, 0)
     }
     
     
     func testQuaternion_z() {
-        XCTAssertEqual(quaternion?.position.z, 0)
+        if quaternion == nil {XCTAssert(false); return}
+        XCTAssertEqual(quaternion!.position.z, 2.0647, accuracy: 0.0001)
     }
     
     
