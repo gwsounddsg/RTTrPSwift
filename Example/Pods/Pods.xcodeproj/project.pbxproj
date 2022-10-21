@@ -7,54 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		026B55D4D272B49BB7091C07999E074D /* TrackedPointPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD7FA4634C11B4B339359453E61207 /* TrackedPointPosition.swift */; };
-		08ACEB47D6D5F88B6D5E1435265A1556 /* RTTrPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA221C543E407797AB2B0D9ECD7777E /* RTTrPM.swift */; };
-		181C81C739F806BCDD6F760FD30A01FB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9F6C57852FA5E9FCA926EEC18BA1AF /* CoreServices.framework */; };
-		1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */; };
-		1DAF2D1B5C224C32B6EEA2DEE4EF10F9 /* Pods-RTTrPSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E4E97E2EB8DCE86FF0D9951F7C1068 /* Pods-RTTrPSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23AB996E1D0BF9065F29A749E52B73BA /* Trackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EDDF8E16915C565485CE1C20FCCB09 /* Trackable.swift */; };
-		28DB61F360BC33D16487D8975619C142 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932C7AC7274383D5CB255B9509628FD0 /* Cocoa.framework */; };
-		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F902A6F27C1E377FF8B6B10AFCF4D10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA247D15640C51AD4820501D39BAB97 /* Constants.swift */; };
-		2FF623C0BDA8A7CCEAE62299015510C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932C7AC7274383D5CB255B9509628FD0 /* Cocoa.framework */; };
-		38B708F008B3EF91E0D03F52F5CF9557 /* RTTrPSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B508C9CC215DF1F56CBED61FA34A7CE7 /* RTTrPSwift-dummy.m */; };
-		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AF1FE6842626EFEA610A499AE156F4C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932C7AC7274383D5CB255B9509628FD0 /* Cocoa.framework */; };
-		6109852F21BC9103E9B7F2D7E07C6F8B /* Pods-RTTrPSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD4EAB96F98AFD2D30D75F7AD27662B /* Pods-RTTrPSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */; };
-		82E9F09DBD7F4A2834A3427B8AFFD7E2 /* CentroidAccVel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880109AE72C47AE4D5FADC5B72AB247D /* CentroidAccVel.swift */; };
-		8DF58A182651F79CF1660FB48D2A0D2D /* Pods-RTTrPSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19582EE8413D86C69390F7DF010039E /* Pods-RTTrPSwift_Tests-dummy.m */; };
-		8E833467B449C5AA8EB04A12B5674FC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932C7AC7274383D5CB255B9509628FD0 /* Cocoa.framework */; };
-		8F94BDB9A7FC80340E75A234922D253A /* Quaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3EE4D39AF237C3A08A1DC665D15BA /* Quaternion.swift */; };
-		ABE2CF7FE359B07D646CBBE2C5A6B147 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FE978B837300B32BFFCDAB8F62EE7A /* Security.framework */; };
-		B20078465990B75E796784F74CF9876B /* Euler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E772E006DA12AA801D8D307E3174A5 /* Euler.swift */; };
-		C2DF8ACF81C5218BCD626400B6607655 /* ModuleUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDA8FE8DB43F5D8F442C914879DD78F /* ModuleUtility.swift */; };
-		CA77CB4456AC411C75C283015B03F79E /* Pods-RTTrPSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2BB3E6A7C59D7E1B01E9B3B8EAB613 /* Pods-RTTrPSwift_Example-dummy.m */; };
-		D8B8041A0B41DBA0B9B4DDC48B12BA9D /* CentroidPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735B447DA518692F8C3C9FF5F51CB28F /* CentroidPosition.swift */; };
-		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1551472711CACE9E777738C20D0413D /* RTTrPSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1E3B840460F4B0EAC238C09A45245F /* RTTrPSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E35CFA125E8E2053141A7EEFE40F8DEA /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48769B00C01B3AA7B874C9AE782E632 /* Utility.swift */; };
-		E386BBAC8F74F83A8737684C27DAE1D3 /* RTTrP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EE6D9112E1D4801034DEA39F8D7DFC /* RTTrP.swift */; };
-		E5233919861E5B05D4AE8AB4330ACFBD /* TrackedPointAccVel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3211B0230E2EF48272C7F42FBA0E5D0 /* TrackedPointAccVel.swift */; };
-		FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */; };
+		02A23222D7201ACED273A98A8610AE61 /* Pods-RTTrPSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19582EE8413D86C69390F7DF010039E /* Pods-RTTrPSwift_Tests-dummy.m */; };
+		184FFB759BA46DD85B9E8575400BFB87 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5ADDB7D4B4B167A45D4FFCB4149520 /* Constants.swift */; };
+		1F836E028DE6953B8D667660F1770F50 /* Euler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED646B829FF4DB57FC4470F572C1EB2C /* Euler.swift */; };
+		3DF6139199FA8976DFEE0C84C5F76805 /* RTTrP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DE0C815AC201D7C0F374F33A8F4AF /* RTTrP.swift */; };
+		4BF698DD991FB843506C023B48E580CF /* TrackedPointPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862A285B20CADD24A434B95DCA7FB58 /* TrackedPointPosition.swift */; };
+		5AC8B7952CBA2D68E22D8A748C06E7C4 /* Pods-RTTrPSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2BB3E6A7C59D7E1B01E9B3B8EAB613 /* Pods-RTTrPSwift_Example-dummy.m */; };
+		5D3AD2DF32E28DDC55E2C07A77875FC2 /* RTTrPSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2989F8BFB6753B12886A2A10165E8DCC /* RTTrPSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62B5D962ABA7F8686FBA21045397059A /* Quaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD61B0D91D9E84C6C4E7528D0610E20 /* Quaternion.swift */; };
+		65C92208F93C4F57FEC665DD37096409 /* Trackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFCEC998FFF3EF2CD9747255EB6648 /* Trackable.swift */; };
+		69B83B1F2E980D4BB365238B717F8A75 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		8041D6599821701F1EAF0E724A1B185F /* Pods-RTTrPSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E4E97E2EB8DCE86FF0D9951F7C1068 /* Pods-RTTrPSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996E9D7B824484CB785BD65139EFA745 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		99CAAD359C7CE156ABEA24E32C0D2751 /* ModuleUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524A681B877AA80102B7E9469F9F065 /* ModuleUtility.swift */; };
+		ACEE436EDAC9805036AD78DF271001EE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8150D156B3220E4AEAE6BB9C7F5B8 /* Utility.swift */; };
+		BEB9B8260C2647AE46B9283D0DECDE8E /* TrackedPointAccVel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D096540BA9541C7A9D5EFBDAFCF3C09 /* TrackedPointAccVel.swift */; };
+		D11A4D0C6AF2E359B86086E1936391E1 /* CentroidPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCBA5801A3303861E83C62648FF4C26 /* CentroidPosition.swift */; };
+		E4B3BE81A2C21A8DC65276FEBECE3E78 /* CentroidAccVel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A290179B90489F82123BB92239BC60BE /* CentroidAccVel.swift */; };
+		E7D4BC641C0110C1FD5653CA95C211CE /* Pods-RTTrPSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD4EAB96F98AFD2D30D75F7AD27662B /* Pods-RTTrPSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC771220683098B50D8737A792697C1D /* RTTrPSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC828932E87B685FE898C956750393 /* RTTrPSwift-dummy.m */; };
+		F4056440A398CF48D660394418C82CBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		F6446608B41401A6E25DECACC8461C60 /* RTTrPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884771BBF688A4BBF3D468575281327 /* RTTrPM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F848C5883946B92BF8DD68333F52F4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
-			remoteInfo = CocoaAsyncSocket;
-		};
-		78074E666B5E79E63804DA6F68DDDE80 /* PBXContainerItemProxy */ = {
+		1044E46499F3471D7E30D169D04DB278 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E6BBBBA10A0BE2D60320368CE8CD090E;
 			remoteInfo = "Pods-RTTrPSwift_Example";
 		};
-		A01F0EB90E40A8BC23FCB8E8C7EF4A85 /* PBXContainerItemProxy */ = {
+		FCA827B9C7177E3E47B5FE26ED7E7255 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -64,115 +48,103 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ED3EE4D39AF237C3A08A1DC665D15BA /* Quaternion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Quaternion.swift; sourceTree = "<group>"; };
-		12D2BC450C4A6B05397075508D93D9CE /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		19F1CFABF2888994A3135540785B58B9 /* Pods-RTTrPSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RTTrPSwift_Example.modulemap"; sourceTree = "<group>"; };
-		1BA221C543E407797AB2B0D9ECD7777E /* RTTrPM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTTrPM.swift; path = RTTrPSwift/Classes/RTTrPM.swift; sourceTree = "<group>"; };
-		271921AA25C9E36392946934D302C840 /* RTTrPSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTTrPSwift.xcconfig; sourceTree = "<group>"; };
-		2EA247D15640C51AD4820501D39BAB97 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = RTTrPSwift/Classes/Constants.swift; sourceTree = "<group>"; };
-		3E9F6C57852FA5E9FCA926EEC18BA1AF /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		400FA707C24437DB0E7C95AC1892DC68 /* RTTrPSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RTTrPSwift.framework; path = RTTrPSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54EE6D9112E1D4801034DEA39F8D7DFC /* RTTrP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTTrP.swift; path = RTTrPSwift/Classes/RTTrP.swift; sourceTree = "<group>"; };
+		1EDC828932E87B685FE898C956750393 /* RTTrPSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTTrPSwift-dummy.m"; sourceTree = "<group>"; };
+		2989F8BFB6753B12886A2A10165E8DCC /* RTTrPSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTTrPSwift-umbrella.h"; sourceTree = "<group>"; };
+		2C0F2E88D901B833F8DE7ABECFA8F666 /* RTTrPSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RTTrPSwift-Info.plist"; sourceTree = "<group>"; };
+		400FA707C24437DB0E7C95AC1892DC68 /* RTTrPSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTTrPSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5ADDB7D4B4B167A45D4FFCB4149520 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = RTTrPSwift/Classes/Constants.swift; sourceTree = "<group>"; };
+		4F58E9B9766CB745327C094BDB87C124 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		587690EB209E5616FA208E806D379C5F /* RTTrPSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RTTrPSwift.modulemap; sourceTree = "<group>"; };
+		5D096540BA9541C7A9D5EFBDAFCF3C09 /* TrackedPointAccVel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrackedPointAccVel.swift; sourceTree = "<group>"; };
+		6107819D8403AD6183497B8C86540021 /* RTTrPSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTTrPSwift-prefix.pch"; sourceTree = "<group>"; };
+		64D8150D156B3220E4AEAE6BB9C7F5B8 /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = RTTrPSwift/Classes/Utility.swift; sourceTree = "<group>"; };
+		6B4DE0C815AC201D7C0F374F33A8F4AF /* RTTrP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTTrP.swift; path = RTTrPSwift/Classes/RTTrP.swift; sourceTree = "<group>"; };
 		6BD4EAB96F98AFD2D30D75F7AD27662B /* Pods-RTTrPSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTTrPSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		70E4E97E2EB8DCE86FF0D9951F7C1068 /* Pods-RTTrPSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTTrPSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		735B447DA518692F8C3C9FF5F51CB28F /* CentroidPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CentroidPosition.swift; sourceTree = "<group>"; };
 		75F9E5FBAD37F995295F8C2F0A5C2660 /* Pods-RTTrPSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTTrPSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		768BA7B7695367E684AF16E4BFA4DE3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7862A285B20CADD24A434B95DCA7FB58 /* TrackedPointPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrackedPointPosition.swift; sourceTree = "<group>"; };
 		7A2BB3E6A7C59D7E1B01E9B3B8EAB613 /* Pods-RTTrPSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTTrPSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		7D2786C30B09415D034A7518E858AF95 /* Pods-RTTrPSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTTrPSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		80FE978B837300B32BFFCDAB8F62EE7A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		86EDDF8E16915C565485CE1C20FCCB09 /* Trackable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trackable.swift; sourceTree = "<group>"; };
-		880109AE72C47AE4D5FADC5B72AB247D /* CentroidAccVel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CentroidAccVel.swift; sourceTree = "<group>"; };
+		8BFFCEC998FFF3EF2CD9747255EB6648 /* Trackable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trackable.swift; sourceTree = "<group>"; };
 		8CF221C89FD1A120178CCCFE62701843 /* Pods-RTTrPSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTTrPSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		932C7AC7274383D5CB255B9509628FD0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		9486E276BA92B066091165BF9BA281B0 /* Pods-RTTrPSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTTrPSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		9884771BBF688A4BBF3D468575281327 /* RTTrPM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTTrPM.swift; path = RTTrPSwift/Classes/RTTrPM.swift; sourceTree = "<group>"; };
 		9AAE476223E2CFB6FD404B2121A20954 /* Pods-RTTrPSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTTrPSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9B1E3B840460F4B0EAC238C09A45245F /* RTTrPSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTTrPSwift-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CD61B0D91D9E84C6C4E7528D0610E20 /* Quaternion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Quaternion.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A19582EE8413D86C69390F7DF010039E /* Pods-RTTrPSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTTrPSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		A26E9A350A8ED6D5BB274CC54908C42C /* RTTrPSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RTTrPSwift.modulemap; sourceTree = "<group>"; };
-		A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		A905023E6DEC0CB3ACF18BC768C59C2E /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		A290179B90489F82123BB92239BC60BE /* CentroidAccVel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CentroidAccVel.swift; sourceTree = "<group>"; };
 		AA49C5E80073298EAD5CC8CB1125C80F /* Pods-RTTrPSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTTrPSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		AC912CE7133552E39B2B3D8E5EECA44D /* RTTrPSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTTrPSwift-prefix.pch"; sourceTree = "<group>"; };
-		AD371B7431A401B0FCC53155DB7C1AC1 /* Pods_RTTrPSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RTTrPSwift_Tests.framework; path = "Pods-RTTrPSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADA134A37E376D43E8A5B42E5CF8D14A /* RTTrPSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RTTrPSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AFAD7FA4634C11B4B339359453E61207 /* TrackedPointPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrackedPointPosition.swift; sourceTree = "<group>"; };
-		B1E772E006DA12AA801D8D307E3174A5 /* Euler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Euler.swift; sourceTree = "<group>"; };
-		B508C9CC215DF1F56CBED61FA34A7CE7 /* RTTrPSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTTrPSwift-dummy.m"; sourceTree = "<group>"; };
-		B6DF49CBCF8EFBFFF207E0519AA447E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BFDA8FE8DB43F5D8F442C914879DD78F /* ModuleUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModuleUtility.swift; sourceTree = "<group>"; };
-		C667A9DD2F176280FEA3D7E5A6035FBE /* RTTrPSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RTTrPSwift-Info.plist"; sourceTree = "<group>"; };
+		AD371B7431A401B0FCC53155DB7C1AC1 /* Pods_RTTrPSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTTrPSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AE0DDB6BBF072580D500E1F8B1CEFD /* RTTrPSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RTTrPSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B34DD1F98BCCDA4AAE650DCD18597FD8 /* RTTrPSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTTrPSwift.release.xcconfig; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		CD3780772163775FC00848A66F93D7F7 /* Pods-RTTrPSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTTrPSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D3211B0230E2EF48272C7F42FBA0E5D0 /* TrackedPointAccVel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrackedPointAccVel.swift; sourceTree = "<group>"; };
+		D00E44587850DC7C536FB57616FB0792 /* RTTrPSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTTrPSwift.debug.xcconfig; sourceTree = "<group>"; };
 		D6021E9606B3DD2871A26110156C1088 /* Pods-RTTrPSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTTrPSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DEA17E24F689BAD69B80C9E2639F6EE9 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		E524A681B877AA80102B7E9469F9F065 /* ModuleUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModuleUtility.swift; sourceTree = "<group>"; };
 		E6A9599F86F2B29A6D04117D5078693E /* Pods-RTTrPSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTTrPSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		E9965FD2DB2DE404933B5744B684EFC7 /* Pods_RTTrPSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RTTrPSwift_Example.framework; path = "Pods-RTTrPSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F301558B709AE865F762BACEB9013F4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E9965FD2DB2DE404933B5744B684EFC7 /* Pods_RTTrPSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTTrPSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED646B829FF4DB57FC4470F572C1EB2C /* Euler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Euler.swift; sourceTree = "<group>"; };
 		F301AE1DE53B15B1A61372B48B182CBD /* Pods-RTTrPSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTTrPSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F30DB71BA2E15A60A1C5C833B317D6CD /* Pods-RTTrPSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RTTrPSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		F48769B00C01B3AA7B874C9AE782E632 /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = RTTrPSwift/Classes/Utility.swift; sourceTree = "<group>"; };
+		FBCBA5801A3303861E83C62648FF4C26 /* CentroidPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CentroidPosition.swift; sourceTree = "<group>"; };
 		FF16ACB6A461C20608CACF3C9579B872 /* Pods-RTTrPSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTTrPSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F9FCB21D77CF9CC4E581B2EFA4A8482 /* Frameworks */ = {
+		0DA9EA95C5E93B2FFB8930291A286AE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FF623C0BDA8A7CCEAE62299015510C9 /* Cocoa.framework in Frameworks */,
+				996E9D7B824484CB785BD65139EFA745 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F7D6F4DE2F5CD918419045290811E5A /* Frameworks */ = {
+		70B3FA1E2FF5A8A2944537DE8B62EB96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF1FE6842626EFEA610A499AE156F4C /* Cocoa.framework in Frameworks */,
+				F4056440A398CF48D660394418C82CBF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B00F83CB6FF8EE5590C198CFCBB9EECC /* Frameworks */ = {
+		FC77AEF3AF3FB5522B7CA643744F1EA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E833467B449C5AA8EB04A12B5674FC1 /* Cocoa.framework in Frameworks */,
-				181C81C739F806BCDD6F760FD30A01FB /* CoreServices.framework in Frameworks */,
-				ABE2CF7FE359B07D646CBBE2C5A6B147 /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C88F46541265D5814C997D8222EAFDC5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28DB61F360BC33D16487D8975619C142 /* Cocoa.framework in Frameworks */,
+				69B83B1F2E980D4BB365238B717F8A75 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		221BE9076B71B01A66C54093D4EF01D3 /* RTTrPSwift */ = {
+		0975EAD226D9C1250B8787760A63CED4 /* RTTrPSwift */ = {
 			isa = PBXGroup;
 			children = (
-				2EA247D15640C51AD4820501D39BAB97 /* Constants.swift */,
-				54EE6D9112E1D4801034DEA39F8D7DFC /* RTTrP.swift */,
-				1BA221C543E407797AB2B0D9ECD7777E /* RTTrPM.swift */,
-				F48769B00C01B3AA7B874C9AE782E632 /* Utility.swift */,
-				D19DD70AB8CD73AD2BA37A88E592034A /* Modules */,
-				46173DABB71CBCB4BC082278CB2F2AAF /* Pod */,
-				55C912BA697A82621D42D790792A6665 /* Support Files */,
+				4A5ADDB7D4B4B167A45D4FFCB4149520 /* Constants.swift */,
+				6B4DE0C815AC201D7C0F374F33A8F4AF /* RTTrP.swift */,
+				9884771BBF688A4BBF3D468575281327 /* RTTrPM.swift */,
+				64D8150D156B3220E4AEAE6BB9C7F5B8 /* Utility.swift */,
+				E76758DB2914025A282EEE9B5AE1D5A8 /* Modules */,
+				0C98BB73992609E00245AD8906073B85 /* Pod */,
+				8F312F6D98C395E980BBCC51FC2F92C2 /* Support Files */,
 			);
 			name = RTTrPSwift;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		0C98BB73992609E00245AD8906073B85 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F58E9B9766CB745327C094BDB87C124 /* LICENSE */,
+				768BA7B7695367E684AF16E4BFA4DE3A /* README.md */,
+				B2AE0DDB6BBF072580D500E1F8B1CEFD /* RTTrPSwift.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2C08BE8B9BE2D24B4BDF07F92C850192 /* Targets Support Files */ = {
@@ -200,46 +172,22 @@
 			path = "Target Support Files/Pods-RTTrPSwift_Tests";
 			sourceTree = "<group>";
 		};
-		46173DABB71CBCB4BC082278CB2F2AAF /* Pod */ = {
+		56585D761DC09EAA26A474457A74D32E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F301558B709AE865F762BACEB9013F4A /* LICENSE */,
-				B6DF49CBCF8EFBFFF207E0519AA447E8 /* README.md */,
-				ADA134A37E376D43E8A5B42E5CF8D14A /* RTTrPSwift.podspec */,
+				E9965FD2DB2DE404933B5744B684EFC7 /* Pods_RTTrPSwift_Example.framework */,
+				AD371B7431A401B0FCC53155DB7C1AC1 /* Pods_RTTrPSwift_Tests.framework */,
+				400FA707C24437DB0E7C95AC1892DC68 /* RTTrPSwift.framework */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		55C912BA697A82621D42D790792A6665 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A26E9A350A8ED6D5BB274CC54908C42C /* RTTrPSwift.modulemap */,
-				271921AA25C9E36392946934D302C840 /* RTTrPSwift.xcconfig */,
-				B508C9CC215DF1F56CBED61FA34A7CE7 /* RTTrPSwift-dummy.m */,
-				C667A9DD2F176280FEA3D7E5A6035FBE /* RTTrPSwift-Info.plist */,
-				AC912CE7133552E39B2B3D8E5EECA44D /* RTTrPSwift-prefix.pch */,
-				9B1E3B840460F4B0EAC238C09A45245F /* RTTrPSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RTTrPSwift";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E4A2CA104AA6D3FF89BCB73D884324F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				221BE9076B71B01A66C54093D4EF01D3 /* RTTrPSwift */,
+				0975EAD226D9C1250B8787760A63CED4 /* RTTrPSwift */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		71F8A982CBD42B81238D1844674062DB /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				932C7AC7274383D5CB255B9509628FD0 /* Cocoa.framework */,
-				3E9F6C57852FA5E9FCA926EEC18BA1AF /* CoreServices.framework */,
-				80FE978B837300B32BFFCDAB8F62EE7A /* Security.framework */,
-			);
-			name = "OS X";
 			sourceTree = "<group>";
 		};
 		884B4F1241C6F207AE4110855CF3B775 /* Pods-RTTrPSwift_Example */ = {
@@ -259,47 +207,19 @@
 			path = "Target Support Files/Pods-RTTrPSwift_Example";
 			sourceTree = "<group>";
 		};
-		A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */ = {
+		8F312F6D98C395E980BBCC51FC2F92C2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				71F8A982CBD42B81238D1844674062DB /* OS X */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A49791B92A7781B859EAEEF581EE6D8B /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */,
-				6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */,
-				AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */,
-				A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */,
-				B862B4264C2F1D9F87C12772C46C54AE /* Support Files */,
-			);
-			name = CocoaAsyncSocket;
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		B862B4264C2F1D9F87C12772C46C54AE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				12D2BC450C4A6B05397075508D93D9CE /* CocoaAsyncSocket.modulemap */,
-				85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */,
-				99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */,
-				DEA17E24F689BAD69B80C9E2639F6EE9 /* CocoaAsyncSocket-Info.plist */,
-				A905023E6DEC0CB3ACF18BC768C59C2E /* CocoaAsyncSocket-prefix.pch */,
-				E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */,
+				587690EB209E5616FA208E806D379C5F /* RTTrPSwift.modulemap */,
+				1EDC828932E87B685FE898C956750393 /* RTTrPSwift-dummy.m */,
+				2C0F2E88D901B833F8DE7ABECFA8F666 /* RTTrPSwift-Info.plist */,
+				6107819D8403AD6183497B8C86540021 /* RTTrPSwift-prefix.pch */,
+				2989F8BFB6753B12886A2A10165E8DCC /* RTTrPSwift-umbrella.h */,
+				D00E44587850DC7C536FB57616FB0792 /* RTTrPSwift.debug.xcconfig */,
+				B34DD1F98BCCDA4AAE650DCD18597FD8 /* RTTrPSwift.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CocoaAsyncSocket";
-			sourceTree = "<group>";
-		};
-		BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A49791B92A7781B859EAEEF581EE6D8B /* CocoaAsyncSocket */,
-			);
-			name = Pods;
+			path = "Example/Pods/Target Support Files/RTTrPSwift";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -307,106 +227,82 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				5E4A2CA104AA6D3FF89BCB73D884324F /* Development Pods */,
-				A3CDB250FFEFB42CA2C68F1FBD92997D /* Frameworks */,
-				BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */,
-				DC6D1C2A5145F3F8C197E78D0DBD3BAF /* Products */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				56585D761DC09EAA26A474457A74D32E /* Products */,
 				2C08BE8B9BE2D24B4BDF07F92C850192 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D19DD70AB8CD73AD2BA37A88E592034A /* Modules */ = {
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				880109AE72C47AE4D5FADC5B72AB247D /* CentroidAccVel.swift */,
-				735B447DA518692F8C3C9FF5F51CB28F /* CentroidPosition.swift */,
-				B1E772E006DA12AA801D8D307E3174A5 /* Euler.swift */,
-				BFDA8FE8DB43F5D8F442C914879DD78F /* ModuleUtility.swift */,
-				0ED3EE4D39AF237C3A08A1DC665D15BA /* Quaternion.swift */,
-				86EDDF8E16915C565485CE1C20FCCB09 /* Trackable.swift */,
-				D3211B0230E2EF48272C7F42FBA0E5D0 /* TrackedPointAccVel.swift */,
-				AFAD7FA4634C11B4B339359453E61207 /* TrackedPointPosition.swift */,
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E76758DB2914025A282EEE9B5AE1D5A8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A290179B90489F82123BB92239BC60BE /* CentroidAccVel.swift */,
+				FBCBA5801A3303861E83C62648FF4C26 /* CentroidPosition.swift */,
+				ED646B829FF4DB57FC4470F572C1EB2C /* Euler.swift */,
+				E524A681B877AA80102B7E9469F9F065 /* ModuleUtility.swift */,
+				9CD61B0D91D9E84C6C4E7528D0610E20 /* Quaternion.swift */,
+				8BFFCEC998FFF3EF2CD9747255EB6648 /* Trackable.swift */,
+				5D096540BA9541C7A9D5EFBDAFCF3C09 /* TrackedPointAccVel.swift */,
+				7862A285B20CADD24A434B95DCA7FB58 /* TrackedPointPosition.swift */,
 			);
 			name = Modules;
 			path = RTTrPSwift/Classes/Modules;
 			sourceTree = "<group>";
 		};
-		DC6D1C2A5145F3F8C197E78D0DBD3BAF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
-				E9965FD2DB2DE404933B5744B684EFC7 /* Pods_RTTrPSwift_Example.framework */,
-				AD371B7431A401B0FCC53155DB7C1AC1 /* Pods_RTTrPSwift_Tests.framework */,
-				400FA707C24437DB0E7C95AC1892DC68 /* RTTrPSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F59AB27E59A68B10AE1AFEE5183D809 /* Headers */ = {
+		1B26314C67F4D594051FE9EAE4C6127B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DAF2D1B5C224C32B6EEA2DEE4EF10F9 /* Pods-RTTrPSwift_Tests-umbrella.h in Headers */,
+				E7D4BC641C0110C1FD5653CA95C211CE /* Pods-RTTrPSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20C7AEC26F25CF55917A3C430214919B /* Headers */ = {
+		8248FF3712B23E8DA0DFEABE425FBDD3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6109852F21BC9103E9B7F2D7E07C6F8B /* Pods-RTTrPSwift_Example-umbrella.h in Headers */,
+				8041D6599821701F1EAF0E724A1B185F /* Pods-RTTrPSwift_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDBE3C9DB3EE36B0FDDFAC3842145EF5 /* Headers */ = {
+		A2820E48377971FAADCE4B609D36FB37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1551472711CACE9E777738C20D0413D /* RTTrPSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F82807D639FCFDF56A607D3970098A87 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */,
-				DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */,
-				411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */,
+				5D3AD2DF32E28DDC55E2C07A77875FC2 /* RTTrPSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
-			buildPhases = (
-				F82807D639FCFDF56A607D3970098A87 /* Headers */,
-				4920E2F47EC0874D094992B0DD2CA9E7 /* Sources */,
-				B00F83CB6FF8EE5590C198CFCBB9EECC /* Frameworks */,
-				B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CocoaAsyncSocket;
-			productName = CocoaAsyncSocket;
-			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7C69707A5FCD831A3C36348EA38EEAF0 /* RTTrPSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7D2E9AE31192A37F3F01FCFDAC4973E /* Build configuration list for PBXNativeTarget "RTTrPSwift" */;
+			buildConfigurationList = BF8276A9BFD27910F38BD85DF3A626F8 /* Build configuration list for PBXNativeTarget "RTTrPSwift" */;
 			buildPhases = (
-				EDBE3C9DB3EE36B0FDDFAC3842145EF5 /* Headers */,
-				B066AC95B0ED7F3A31A144FDDBB7C9B6 /* Sources */,
-				7F7D6F4DE2F5CD918419045290811E5A /* Frameworks */,
-				54A95304AD56C21A8B97C137BAF2193D /* Resources */,
+				A2820E48377971FAADCE4B609D36FB37 /* Headers */,
+				E62E0390A014002E32FEDF91465B3D2D /* Sources */,
+				70B3FA1E2FF5A8A2944537DE8B62EB96 /* Frameworks */,
+				4ED86275158B6E15104C6F54430A7CEF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -419,40 +315,39 @@
 		};
 		AA03488F701CBCF1E64A215C9B711130 /* Pods-RTTrPSwift_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B6A84856DF9E88004847DEA7610FAE6 /* Build configuration list for PBXNativeTarget "Pods-RTTrPSwift_Tests" */;
+			buildConfigurationList = 91AC135FFE787F29EB399B9347DF4CEC /* Build configuration list for PBXNativeTarget "Pods-RTTrPSwift_Tests" */;
 			buildPhases = (
-				1F59AB27E59A68B10AE1AFEE5183D809 /* Headers */,
-				979625CC31243E990DBAE2E9AA218660 /* Sources */,
-				C88F46541265D5814C997D8222EAFDC5 /* Frameworks */,
-				DD89D9831DA4911B76A82276674E1687 /* Resources */,
+				8248FF3712B23E8DA0DFEABE425FBDD3 /* Headers */,
+				8B5F696A8FF9B1DCD3AC61A6D7CFA912 /* Sources */,
+				0DA9EA95C5E93B2FFB8930291A286AE8 /* Frameworks */,
+				EBCD32222D2B85ACE5D1FD1156CDA2B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D34BFDD4F58BEC2C708DAEE56C0E6163 /* PBXTargetDependency */,
+				43A24067FE1B7E8B25A57B38440606A4 /* PBXTargetDependency */,
 			);
 			name = "Pods-RTTrPSwift_Tests";
-			productName = "Pods-RTTrPSwift_Tests";
+			productName = Pods_RTTrPSwift_Tests;
 			productReference = AD371B7431A401B0FCC53155DB7C1AC1 /* Pods_RTTrPSwift_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E6BBBBA10A0BE2D60320368CE8CD090E /* Pods-RTTrPSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 120724C4CC1BD938965D621CD5EF8A73 /* Build configuration list for PBXNativeTarget "Pods-RTTrPSwift_Example" */;
+			buildConfigurationList = D2BCC81927C3441FF4621DA1362FF4EF /* Build configuration list for PBXNativeTarget "Pods-RTTrPSwift_Example" */;
 			buildPhases = (
-				20C7AEC26F25CF55917A3C430214919B /* Headers */,
-				5F0746731E913858791D87A61E84C462 /* Sources */,
-				4F9FCB21D77CF9CC4E581B2EFA4A8482 /* Frameworks */,
-				65621EE4E56EFA66514646A3B20A6A5E /* Resources */,
+				1B26314C67F4D594051FE9EAE4C6127B /* Headers */,
+				6F363CE5914170F3106D5EE3D500049B /* Sources */,
+				FC77AEF3AF3FB5522B7CA643744F1EA4 /* Frameworks */,
+				B2C09377AE12C41BAC1CE1395D7F839D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8DE9B5AEDBEE010EE989713E59A17A9C /* PBXTargetDependency */,
-				5F18B25F019EA15F4947AE4FCB0F806F /* PBXTargetDependency */,
+				6EF75A8AAE7F013596C904F329809E77 /* PBXTargetDependency */,
 			);
 			name = "Pods-RTTrPSwift_Example";
-			productName = "Pods-RTTrPSwift_Example";
+			productName = Pods_RTTrPSwift_Example;
 			productReference = E9965FD2DB2DE404933B5744B684EFC7 /* Pods_RTTrPSwift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -462,23 +357,22 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1400;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DC6D1C2A5145F3F8C197E78D0DBD3BAF /* Products */;
+			productRefGroup = 56585D761DC09EAA26A474457A74D32E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
 				E6BBBBA10A0BE2D60320368CE8CD090E /* Pods-RTTrPSwift_Example */,
 				AA03488F701CBCF1E64A215C9B711130 /* Pods-RTTrPSwift_Tests */,
 				7C69707A5FCD831A3C36348EA38EEAF0 /* RTTrPSwift */,
@@ -487,28 +381,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54A95304AD56C21A8B97C137BAF2193D /* Resources */ = {
+		4ED86275158B6E15104C6F54430A7CEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65621EE4E56EFA66514646A3B20A6A5E /* Resources */ = {
+		B2C09377AE12C41BAC1CE1395D7F839D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD89D9831DA4911B76A82276674E1687 /* Resources */ = {
+		EBCD32222D2B85ACE5D1FD1156CDA2B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,94 +405,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4920E2F47EC0874D094992B0DD2CA9E7 /* Sources */ = {
+		6F363CE5914170F3106D5EE3D500049B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */,
-				1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */,
-				6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */,
+				5AC8B7952CBA2D68E22D8A748C06E7C4 /* Pods-RTTrPSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F0746731E913858791D87A61E84C462 /* Sources */ = {
+		8B5F696A8FF9B1DCD3AC61A6D7CFA912 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA77CB4456AC411C75C283015B03F79E /* Pods-RTTrPSwift_Example-dummy.m in Sources */,
+				02A23222D7201ACED273A98A8610AE61 /* Pods-RTTrPSwift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		979625CC31243E990DBAE2E9AA218660 /* Sources */ = {
+		E62E0390A014002E32FEDF91465B3D2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF58A182651F79CF1660FB48D2A0D2D /* Pods-RTTrPSwift_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B066AC95B0ED7F3A31A144FDDBB7C9B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82E9F09DBD7F4A2834A3427B8AFFD7E2 /* CentroidAccVel.swift in Sources */,
-				D8B8041A0B41DBA0B9B4DDC48B12BA9D /* CentroidPosition.swift in Sources */,
-				2F902A6F27C1E377FF8B6B10AFCF4D10 /* Constants.swift in Sources */,
-				B20078465990B75E796784F74CF9876B /* Euler.swift in Sources */,
-				C2DF8ACF81C5218BCD626400B6607655 /* ModuleUtility.swift in Sources */,
-				8F94BDB9A7FC80340E75A234922D253A /* Quaternion.swift in Sources */,
-				E386BBAC8F74F83A8737684C27DAE1D3 /* RTTrP.swift in Sources */,
-				08ACEB47D6D5F88B6D5E1435265A1556 /* RTTrPM.swift in Sources */,
-				38B708F008B3EF91E0D03F52F5CF9557 /* RTTrPSwift-dummy.m in Sources */,
-				23AB996E1D0BF9065F29A749E52B73BA /* Trackable.swift in Sources */,
-				E5233919861E5B05D4AE8AB4330ACFBD /* TrackedPointAccVel.swift in Sources */,
-				026B55D4D272B49BB7091C07999E074D /* TrackedPointPosition.swift in Sources */,
-				E35CFA125E8E2053141A7EEFE40F8DEA /* Utility.swift in Sources */,
+				E4B3BE81A2C21A8DC65276FEBECE3E78 /* CentroidAccVel.swift in Sources */,
+				D11A4D0C6AF2E359B86086E1936391E1 /* CentroidPosition.swift in Sources */,
+				184FFB759BA46DD85B9E8575400BFB87 /* Constants.swift in Sources */,
+				1F836E028DE6953B8D667660F1770F50 /* Euler.swift in Sources */,
+				99CAAD359C7CE156ABEA24E32C0D2751 /* ModuleUtility.swift in Sources */,
+				62B5D962ABA7F8686FBA21045397059A /* Quaternion.swift in Sources */,
+				3DF6139199FA8976DFEE0C84C5F76805 /* RTTrP.swift in Sources */,
+				F6446608B41401A6E25DECACC8461C60 /* RTTrPM.swift in Sources */,
+				EC771220683098B50D8737A792697C1D /* RTTrPSwift-dummy.m in Sources */,
+				65C92208F93C4F57FEC665DD37096409 /* Trackable.swift in Sources */,
+				BEB9B8260C2647AE46B9283D0DECDE8E /* TrackedPointAccVel.swift in Sources */,
+				4BF698DD991FB843506C023B48E580CF /* TrackedPointPosition.swift in Sources */,
+				ACEE436EDAC9805036AD78DF271001EE /* Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5F18B25F019EA15F4947AE4FCB0F806F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RTTrPSwift;
-			target = 7C69707A5FCD831A3C36348EA38EEAF0 /* RTTrPSwift */;
-			targetProxy = A01F0EB90E40A8BC23FCB8E8C7EF4A85 /* PBXContainerItemProxy */;
-		};
-		8DE9B5AEDBEE010EE989713E59A17A9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 4F848C5883946B92BF8DD68333F52F4E /* PBXContainerItemProxy */;
-		};
-		D34BFDD4F58BEC2C708DAEE56C0E6163 /* PBXTargetDependency */ = {
+		43A24067FE1B7E8B25A57B38440606A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RTTrPSwift_Example";
 			target = E6BBBBA10A0BE2D60320368CE8CD090E /* Pods-RTTrPSwift_Example */;
-			targetProxy = 78074E666B5E79E63804DA6F68DDDE80 /* PBXContainerItemProxy */;
+			targetProxy = 1044E46499F3471D7E30D169D04DB278 /* PBXContainerItemProxy */;
+		};
+		6EF75A8AAE7F013596C904F329809E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RTTrPSwift;
+			target = 7C69707A5FCD831A3C36348EA38EEAF0 /* RTTrPSwift */;
+			targetProxy = FCA827B9C7177E3E47B5FE26ED7E7255 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		22CE36ED0147C72470592C4BA3D76BE8 /* Debug */ = {
+		01194C6486AE7066A5DA31A76D2D39D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F301AE1DE53B15B1A61372B48B182CBD /* Pods-RTTrPSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-RTTrPSwift_Example/Pods-RTTrPSwift_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -624,24 +493,54 @@
 			};
 			name = Debug;
 		};
-		338E20ECC0E64E2BD2F5B880BFD02B71 /* Debug */ = {
+		2AD080F2F41D6FE40AC780E5B96C6C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6021E9606B3DD2871A26110156C1088 /* Pods-RTTrPSwift_Tests.debug.xcconfig */;
+			baseConfigurationReference = D00E44587850DC7C536FB57616FB0792 /* RTTrPSwift.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RTTrPSwift/RTTrPSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RTTrPSwift/RTTrPSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/RTTrPSwift/RTTrPSwift.modulemap";
+				PRODUCT_MODULE_NAME = RTTrPSwift;
+				PRODUCT_NAME = RTTrPSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		555B0BB8F80CA005AA825185F402FA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6021E9606B3DD2871A26110156C1088 /* Pods-RTTrPSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RTTrPSwift_Tests/Pods-RTTrPSwift_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -660,24 +559,22 @@
 			};
 			name = Debug;
 		};
-		34B3C4079CFB919E6B18D2EC5A9E2D9B /* Release */ = {
+		6472CD7B7935655FA164E4BE546C536F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CF221C89FD1A120178CCCFE62701843 /* Pods-RTTrPSwift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-RTTrPSwift_Tests/Pods-RTTrPSwift_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -696,44 +593,11 @@
 			};
 			name = Release;
 		};
-		8C3CDD3DFDA5156A099CAA271BA7D823 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 271921AA25C9E36392946934D302C840 /* RTTrPSwift.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/RTTrPSwift/RTTrPSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RTTrPSwift/RTTrPSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/RTTrPSwift/RTTrPSwift.modulemap";
-				PRODUCT_MODULE_NAME = RTTrPSwift;
-				PRODUCT_NAME = RTTrPSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9382317ED75CFC741F429FC224405042 /* Debug */ = {
+		7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -756,6 +620,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -763,6 +628,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -794,91 +660,22 @@
 			};
 			name = Debug;
 		};
-		95A63B0F174DC7C025CE7EF781A46FB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 271921AA25C9E36392946934D302C840 /* RTTrPSwift.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/RTTrPSwift/RTTrPSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RTTrPSwift/RTTrPSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/RTTrPSwift/RTTrPSwift.modulemap";
-				PRODUCT_MODULE_NAME = RTTrPSwift;
-				PRODUCT_NAME = RTTrPSwift;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B7E53C189E10670C0049E93B6DA9788E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
-				PRODUCT_NAME = CocoaAsyncSocket;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D4D119B557A7F2877DD314AB1E8B8D73 /* Release */ = {
+		9E46936D0E0C953191B6AD994EEBA879 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF16ACB6A461C20608CACF3C9579B872 /* Pods-RTTrPSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Target Support Files/Pods-RTTrPSwift_Example/Pods-RTTrPSwift_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -897,30 +694,29 @@
 			};
 			name = Release;
 		};
-		D77ACBC6F1E8986C260CCDBF4F078728 /* Debug */ = {
+		A8F12AE4C4DBDE5C79CE0527E8F7B0A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = B34DD1F98BCCDA4AAE650DCD18597FD8 /* RTTrPSwift.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RTTrPSwift/RTTrPSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RTTrPSwift/RTTrPSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
-				PRODUCT_NAME = CocoaAsyncSocket;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/RTTrPSwift/RTTrPSwift.modulemap";
+				PRODUCT_MODULE_NAME = RTTrPSwift;
+				PRODUCT_NAME = RTTrPSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -928,12 +724,13 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		E4DEAC9B52796426D2A37E7074A1738D /* Release */ = {
+		C0AB89DB0533D8E2B9201FA6579824B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -956,6 +753,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -963,6 +761,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -983,8 +782,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -993,47 +791,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		120724C4CC1BD938965D621CD5EF8A73 /* Build configuration list for PBXNativeTarget "Pods-RTTrPSwift_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22CE36ED0147C72470592C4BA3D76BE8 /* Debug */,
-				D4D119B557A7F2877DD314AB1E8B8D73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9382317ED75CFC741F429FC224405042 /* Debug */,
-				E4DEAC9B52796426D2A37E7074A1738D /* Release */,
+				7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */,
+				C0AB89DB0533D8E2B9201FA6579824B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B6A84856DF9E88004847DEA7610FAE6 /* Build configuration list for PBXNativeTarget "Pods-RTTrPSwift_Tests" */ = {
+		91AC135FFE787F29EB399B9347DF4CEC /* Build configuration list for PBXNativeTarget "Pods-RTTrPSwift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				338E20ECC0E64E2BD2F5B880BFD02B71 /* Debug */,
-				34B3C4079CFB919E6B18D2EC5A9E2D9B /* Release */,
+				555B0BB8F80CA005AA825185F402FA59 /* Debug */,
+				6472CD7B7935655FA164E4BE546C536F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+		BF8276A9BFD27910F38BD85DF3A626F8 /* Build configuration list for PBXNativeTarget "RTTrPSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D77ACBC6F1E8986C260CCDBF4F078728 /* Debug */,
-				B7E53C189E10670C0049E93B6DA9788E /* Release */,
+				2AD080F2F41D6FE40AC780E5B96C6C2D /* Debug */,
+				A8F12AE4C4DBDE5C79CE0527E8F7B0A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7D2E9AE31192A37F3F01FCFDAC4973E /* Build configuration list for PBXNativeTarget "RTTrPSwift" */ = {
+		D2BCC81927C3441FF4621DA1362FF4EF /* Build configuration list for PBXNativeTarget "Pods-RTTrPSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C3CDD3DFDA5156A099CAA271BA7D823 /* Debug */,
-				95A63B0F174DC7C025CE7EF781A46FB8 /* Release */,
+				01194C6486AE7066A5DA31A76D2D39D5 /* Debug */,
+				9E46936D0E0C953191B6AD994EEBA879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
