@@ -1,23 +1,16 @@
 PODS:
-  - CocoaAsyncSocket (7.6.3)
-  - RTTrPSwift (1.8.7.0)
+  - RTTrPSwift (0.5)
 
 DEPENDENCIES:
-  - CocoaAsyncSocket (~> 7.6.3)
   - RTTrPSwift (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - CocoaAsyncSocket
 
 EXTERNAL SOURCES:
   RTTrPSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
-  RTTrPSwift: 1248514391b3c57a38683418f1cf43eb231f1f6c
+  RTTrPSwift: cce645c198834aa53325cf9d4e48aca9cc9886ef
 
-PODFILE CHECKSUM: a691bb91f9e6e47442013b58142b667227f77c54
+PODFILE CHECKSUM: e10bcf03c2a86487d18b526129e41eb79905ef9d
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3

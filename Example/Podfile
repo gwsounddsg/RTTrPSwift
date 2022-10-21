@@ -4,7 +4,7 @@ target 'RTTrPSwift_Example' do
   pod 'RTTrPSwift', :path => '../'
   
   # For example project
-  pod 'CocoaAsyncSocket', '~> 7.6.3'
+  # pod 'CocoaAsyncSocket', '~> 7.6.5'
 
   target 'RTTrPSwift_Tests' do
     inherit! :search_paths
