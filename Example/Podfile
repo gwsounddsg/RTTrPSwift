@@ -5,6 +5,7 @@ target 'RTTrPSwift_Example' do
   
   # For example project
   # pod 'CocoaAsyncSocket', '~> 7.6.5'
+  platform :macos, '11.0'
 
   target 'RTTrPSwift_Tests' do
     inherit! :search_paths

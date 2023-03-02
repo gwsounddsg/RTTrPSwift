@@ -1,5 +1,5 @@
 PODS:
-  - RTTrPSwift (0.5)
+  - RTTrPSwift (0.6)
 
 DEPENDENCIES:
   - RTTrPSwift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RTTrPSwift: cce645c198834aa53325cf9d4e48aca9cc9886ef
+  RTTrPSwift: ef364fd8c7a8a714ebde271fb6ae6faffdb75aab
 
-PODFILE CHECKSUM: e10bcf03c2a86487d18b526129e41eb79905ef9d
+PODFILE CHECKSUM: 369086645231d19ee8e8d29d00a401b1d24c8aeb
 
 COCOAPODS: 1.11.3

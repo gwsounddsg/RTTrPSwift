@@ -1,6 +1,6 @@
 {
   "name": "RTTrPSwift",
-  "version": "0.5",
+  "version": "0.6",
   "summary": "RTTrPSwift is a library for Swift of the RTTrP protocol",
   "description": "RTTrPSwift is a library for Swift of the RTTrP protocol. Information about the protocol can be found here: https://rttrp.github.io/RTTrP-Wiki/",
   "homepage": "https://github.com/gwsounddsg/RTTrPSwift",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/gwsounddsg/RTTrPSwift.git",
-    "tag": "0.5"
+    "tag": "0.6"
   },
   "platforms": {
-    "osx": "10.10"
+    "osx": "11.0"
   },
-  "swift_versions": "5.0",
+  "swift_versions": "5.7",
   "source_files": "RTTrPSwift/Classes/**/*",
-  "swift_version": "5.0"
+  "swift_version": "5.7"
 }
