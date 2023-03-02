@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RTTrPSwift'
-  s.version          = '0.6'
+  s.version          = '0.6.1'
   s.summary          = 'RTTrPSwift is a library for Swift of the RTTrP protocol'
 
 # This description is used to generate tags and improve search results.
